@@ -6,6 +6,14 @@ body{
 .logo-img{
   height: 100px;
 }
+
+@media(max-width:952px){
+ .logo-img{
+      height: 34px;
+    width: 34px;
+  }
+}
+
 .bg-video-wrap {
   width: 100%;
   height: 100vh;
@@ -17,11 +25,6 @@ body{
   bottom: 0;
   z-index: -1;
 }
-
-
-
-
-
 
 
 .overlay {
@@ -237,6 +240,8 @@ p{
 }
 
 
+
+
 /*Icon DIV */
 
 .icon-div {
@@ -255,8 +260,8 @@ p{
 
 @media (max-width: 991px) {
   .icon-div {
-  margin: 291PX 0PX 0px -380px;
-  position: absolute;
+ margin: 208PX 0PX 0px -649px;
+  
 }
 .icon-div ul{
    position: absolute;
@@ -351,6 +356,7 @@ ul li:nth-child(5) a::before{
 }
 
 
+
 /*Resum button*/
 
 .resume{
@@ -361,11 +367,18 @@ ul li:nth-child(5) a::before{
 
 
 
+
+
+
+
+
+
+
 /***********ABOUT PAGE**************************/
 
 
 #abouts-div{
- width: 74%;
+ 
 height: 71%;
 position: absolute;
 top: 0;
@@ -373,21 +386,21 @@ left: 0;
 background-size: 3px 3px;
 z-index: 2;
 align-content: center;
-margin: 266px 20px 60px 170px;
+margin: 266px 20px 60px 0px;
 border-radius: 20px;
 
   
 }
 
 .pro-pic{
-  position: absolute;
+position: absolute;
 height: 250px;
 width: 250px;
 margin: 0px 22px 0 125px;
 }
 
 .pro-pic-name{
-  position: absolute;
+position: absolute;
 margin: 220px 0 0 247px;
 font-size: 16px;
 color: black;
@@ -398,7 +411,20 @@ font-weight: bold;
 font-family: cursive;
 box-shadow: -3px 3px 0 #621bb9;
 }
-
+@media(max-width:952px){
+  .pro-pic-name{
+ margin: 220px 0 0 218px;
+ font-size: 16px;
+ color: black;
+ background: white;
+ padding: 12px 46px 12px 45px;
+ border-radius: 17px;
+ font-weight: bold;
+ font-family: cursive;
+ box-shadow: -3px 3px 0 #621bb9;
+ width: 211px;
+ }
+}
 
 #abouts-content-div{
  
@@ -423,9 +449,17 @@ background-color: aliceblue;
 
 .card{
   border: none;
+
+left: 110px;
 }
 
+@media(max-width:952px){
+  .card{
+ 
+left:0px;
+}
 
+}
 
 /*contact Page*/
 
@@ -435,7 +469,7 @@ height: 100%;
 width: 100%;
 background: #132644;
 position: absolute;
-top: 14%;
+top: 70px;
 padding-top: 0px;
 border-top: 2px solid white;
 }
@@ -463,8 +497,6 @@ color: white;
   margin: 115px 0 0 163px;
 }
 
-
-
 .icon-name{
   font-size:12px;
   font-family: serif;
@@ -482,94 +514,98 @@ color: white;
 
 @media(max-width:952px){
 
- #contact-con{
-height: 100%;
-width: 100%;
-background: #132644;
-position: absolute;
-top: 25%;
-padding-top: 0px;
-}
-#contact-head{
-font-family:serif;
-font-size: 38px;
-font-weight: 600;
-padding: 19px 0 21px 0;
-color: white;
+  #contact-con{
+ height: 100%;
+ width: 100%;
+ background: #132644;
+ position: absolute;
+ top: 25%;
+ padding-top: 0px;
+ }
+ #contact-head{
+ font-family:serif;
+ font-size: 38px;
+ font-weight: 600;
+ padding: 19px 0 21px 0;
+ color: white;
+ }
 
-}
-
-#contact-icon-div{
+ #contact-icon-div{
  margin: 26px 0 0 64px;
-}
+ }
 
-.icon-name{
-  font-size:12px;
+ .icon-name{
+  font-size:9px;
   font-family: serif;
   color:#cecdcd;
-}
-.icon-details{
+ }
+ .icon-details{
   color:white;
-  font-size:20px; 
+  font-size: 16px;
   font-family: serif;
-}
+ }
  #social-icons-div{
   margin: 30px 0 0 0;
-}
-#contact-sub-head-1{
+ }
+ #contact-sub-head-1{
   font-size:22px;
-   font-family: serif;
-   color: #8a8a8a;
-}
-#contact-sub-head{
+  font-family: serif;
+  color: #8a8a8a;
+ }
+ #contact-sub-head{
   font-size:18px;
    font-family: serif;
    color: #8a8a8a;
    margin: -28px 0 0 0;
-}
+ }
 
-.animate-charcter{
+ .animate-charcter{
   font-size: 20px;
   line-height: 45PX;
-}
-.title {
- margin: -135px 0 0 -70px;
+ }
+ .title {
+ margin: -135px 0 0 -98px;
 
-}
-#slide {
+ }
+ #slide {
  
-  width: 375px;
-  }
+     width: 325px;
+ }
+
 }
 
 
-/*Service Pages..............*/
+
+
+
+/*...........Service Pages..............*/
 
 #section{
-width: 100%;
+width: 95%;
 height: 70%;
 position: absolute;
 top: 128%;
-left: 21px;
 background-size: 3px 3px;
 z-index: 2;
-margin: 272px 20px 60px 83px;
+margin: 272px 20px 60px 0;
 border-radius: 20px;
 }
 @media(max-width:952px){
   #section{
-   margin-top: -155px;
-   margin-left:71px;
-    }
-    .card{
-      margin: 23px 0 0 -91px;
-      width: 411px;
-    }
+   margin-top: -288px;
+   margin-left:0;
+  }
+    
+  .card{
+    margin: 23px 0 0 0;
+    width: 354px;
+  }
+
 }
 
 
 #service-heading{
- position: absolute;
+position: absolute;
 top: 25%;
 margin: 12px 13px 50% 41%;
 color: aliceblue;
@@ -582,32 +618,35 @@ font-family: initial;
 }
 
 #web-service-bg{
-  height: 100%;
+height: 100%;
 width: 100%;
 margin: 0 0 0 -72px;
 object-fit: contain;
 margin: 240px 0 0 0;
-
 }
+
 #web-service-bg-2{
-  height: 100%;
+height: 100%;
 width: 100%;
 margin: 0 0 0 -72px;
 object-fit: contain;
 margin: 46% 0 0 0;
 }
+
+
+
 @media(max-width:952px){
 
   #service-heading{
-  margin: 12px 13px 50% 30%;
+  margin: 12px 13px 50% 27%;
   }
   #web-service-bg-2{
-  height: 100%;
-  width: 100%;
- margin: 0 0 0 -72px;
- object-fit: contain;
- margin: 351% 0 0 0;
-}
+    height: 100%;
+    width: 99%;
+    margin: 0 0 0 -72px;
+    object-fit: contain;
+    margin: 370% 0 0 0;
+  }
 
 }
 
@@ -633,16 +672,13 @@ font-weight: bold;
   color: white;
   font-size: 45px;
   top: 66%;
-  margin: 00 0 0 20%;
+  margin: -83px 0 0 15%;
   font-weight: bold;
-
-}
-.web-name{
+  }
+ .web-name{
   margin-left: 75px;
-}
-
-
-
+ }
+ 
 }
 
 
@@ -653,8 +689,6 @@ font-weight: bold;
   font-family:Georgia,serif;
   font-style: italic;
 }
-
-
 
 .slideUp {
   top:40px;
@@ -668,16 +702,14 @@ font-weight: bold;
   100% {transform: translateY(-40px);opacity:1;}
 }
 
-
 .web-name{
   margin-left: 89px;
 }
 
 @media(max-width:952px){
 
-
-.web-name{
-  margin-left: 73px;
-}
+  .web-name{
+   margin-left: 73px;
+  }
 
 }
