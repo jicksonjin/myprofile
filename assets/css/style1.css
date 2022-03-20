@@ -245,7 +245,7 @@ p{
 /*Icon DIV */
 
 .icon-div {
-  margin: 291PX 0PX 0px -380px;
+ margin: 308PX 0PX 0px -224px;
   position: absolute;
 }
 .icon-div ul{
@@ -260,7 +260,7 @@ p{
 
 @media (max-width: 991px) {
   .icon-div {
- margin: 208PX 0PX 0px -649px;
+ margin: 310PX 0PX 0px -649px;
   
 }
 .icon-div ul{
