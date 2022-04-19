@@ -72,7 +72,7 @@ section {
 }
 #skills-div{
 position: absolute;
-top: 117%;
+top: 130%;
 margin: 0 0 0 113px;
 }
 
@@ -80,7 +80,7 @@ margin: 0 0 0 113px;
 
    #skills-div{
     position: absolute;
-    top: 129%;
+    top: 171%;
     margin: 0 0 0 0;
    }
 
@@ -125,7 +125,7 @@ margin: 0 0 0 113px;
   position: absolute;
   height: 47px;
   width: 286px;
-  top: 102%;
+  top: 116%;
   border: 1.5px solid #e65600;
   border-radius: 53px;
 }
@@ -150,7 +150,7 @@ margin: 0 0 0 113px;
   position: absolute;
   height: 47px;
   width: 286px;
-  top: 122%;
+  top: 158%;
   border: 1.5px solid #e65600;;
   border-radius: 53px;
   }
